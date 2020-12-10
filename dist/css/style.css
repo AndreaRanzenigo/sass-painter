@@ -78,3 +78,7 @@ header ul li:first-child {
   font-size: 25px;
 }
 
+.jumbotron {
+  display: flex;
+}
+
