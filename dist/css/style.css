@@ -10,3 +10,42 @@ body {
   line-height: 1.5;
 }
 
+body .container {
+  width: 1170px;
+  margin: auto;
+}
+
+.overall {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #000;
+}
+
+.overall ul {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  margin: 15px;
+}
+
+.overall ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 15px;
+}
+
+.overall ul li i {
+  color: #009cff;
+}
+
+.overall ul li span {
+  padding-left: 8px;
+}
+
+.overall #language {
+  padding-right: 15px;
+  margin-right: 15px;
+}
+
