@@ -49,3 +49,32 @@ body .container {
   margin-right: 15px;
 }
 
+header {
+  background-color: #101010;
+  margin: 0;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 15px;
+}
+
+header ul li {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 20px;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: capitalize;
+}
+
+header ul li:first-child {
+  font-size: 25px;
+}
+
