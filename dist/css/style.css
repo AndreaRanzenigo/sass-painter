@@ -80,5 +80,24 @@ header ul li:first-child {
 
 .jumbotron {
   display: flex;
+  background-image: url(/images/jumbotron.jpg?1ae8206f62af0c936bc2844d99e7195b);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .left {
+  width: 50%;
+}
+
+.jumbotron .left h1 {
+  font-size: 25px;
+}
+
+.jumbotron .left h2 {
+  font-size: 20px;
+}
+
+.jumbotron .right {
+  width: 50%;
 }
 

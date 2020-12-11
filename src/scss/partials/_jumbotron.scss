@@ -1,4 +1,22 @@
 //Jumbotron
 .jumbotron {
     display: flex;
+    background-image: url(../../../image/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .left {
+        width: 50%;
+        // h1, h2, li {
+        //     color: $white;
+        // }
+        h1 {
+            font-size: 25px;
+        }
+        h2 {
+            font-size: 20px;
+        }
+    }
+    .right {
+        width: 50%;
+    }
 }
