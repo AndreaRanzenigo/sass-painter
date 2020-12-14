@@ -20,17 +20,81 @@
             padding: 8px 0;
             list-style: none;
         }
+        .download {
+            display: flex;
+            width: 45%;
+            background-color: #666666;
+            padding: 10px;
+            margin-top: 20px;
+            cursor: pointer;
+            .download-text {
+                margin: 3px;
+                width: 70%;
+                border-right: 1px solid $white;
+                h4 {
+                    text-transform: uppercase;
+                    color: $white;
+                }
+                h5 {
+                    text-transform: capitalize;
+                    color: $white;
+                }
+            }
+            .download-icon {
+                width: 30%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                i {
+                    font-size: 25px;
+                }
+            }
+        }
     }
     .right {
         width: 30%;
         background-color: $black;
         padding: 10px;
+        h3 {
+            font-size: 25px;
+            font-weight: 500;
+        }
+        h3.save {
+            font-size: 20px;
+            text-decoration: line-through;
+            color: #999999;
+            font-weight: 500;
+        }
+        .limited-offer {
+            background-color: $white;
+            margin: 25px 0;
+            padding: 5px;
+            h4 {
+                color: #2c2c2c;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 400;
+            }
+            p {
+                color: #2c2c2c;
+                text-transform: capitalize;
+                font-size: 15px;
+                span {
+                    color: #cc397f;
+                    font-weight: 700;
+                }
+            }
+        }
         a {
             color: $white;
             text-decoration: none;
+            margin: 10px 0;
+            text-transform: uppercase;
             display: block;
             &:last-child {
                 color: #35c6f7;
+                text-transform: capitalize;
+                font-weight: 700;
             }
         }
     }
