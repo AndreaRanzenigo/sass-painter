@@ -1,0 +1,40 @@
+//Slide image
+.slide-image {
+    text-align: center;
+    h3 {
+        font-size: 40px;
+        text-transform: capitalize;
+        color: $black;
+        font-weight: 500;
+    }
+    p {
+        color: $color-text;
+        line-height: 1.7;
+        font-size: 20px;
+    }
+    .slide {
+        position: relative;
+        img {
+            width: 100%;
+        }
+        i {
+            color: $color-arrow;
+            font-size: 40px;
+            cursor: pointer;
+            position: absolute;
+            &:first-child {
+                top: 50%;
+                left: -60px;
+                transform: translateY(-50%);
+            }
+            &:last-child {
+                top: 50%;
+                right: -60px;
+                transform: translateY(-50%);
+            }
+            &:hover {
+                opacity: .4;
+            }
+        }
+    }
+}

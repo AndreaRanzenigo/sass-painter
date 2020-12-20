@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./dist/css/style.css">
 </head>
 <body>
-    
+
     <!-- App -->
     <div id="app">
         <!-- overall -->
@@ -82,7 +82,7 @@
             <main>
                 <section class="jumbotron">
                     <div class="left">
-                        
+
                         <h1>painter essentials 7 (windows/mac)</h1>
                         <h2>Painting software for beginners</h2>
                         <ul>
@@ -107,7 +107,7 @@
                                 Built-in learning
                             </li>
                         </ul>
-                        
+
                         <!-- Download -->
                         <div class="download">
                             <div class="download-text">
@@ -176,13 +176,29 @@
                         </div>
                     </div>
                 </section>
+
+                <!-- Section slide-image -->
+                <section class="slide-image mt-100">
+                    <div class="container">
+                        <h3>Distinctive Artificial Intelligence based photo painting</h3>
+                        <p>Produce incredible photo art with ease by converting your favorite photos into paintings using neural networking and the strength of Painter’s brush engine! Choose from an impressive range of AI styles for photo painting, including Bold Watercolor, Colored Pencil, Colorful Dabs, Impressionist, Smooth Acrylic, Van Gogh, Watercolor Portrait, and Charcoal Drawing.</p>
+                        <div class="slide mt-100">
+                            <i class="fas fa-chevron-circle-left" @click="prevImage"></i>
+                            <img :src="slide[indexPhoto]" alt="slide">
+                            <i class="fas fa-chevron-circle-right" @click="nextImage"></i>
+                        </div>
+                    </div>
+                </section>
             </main>
 
             <!-- Footer -->
             <footer>
                 footer
             </footer>
-        
     </div>
+
+    <!-- JS -->
+    <script src="./dist/js/main.js"></script>
+
 </body>
 </html>
