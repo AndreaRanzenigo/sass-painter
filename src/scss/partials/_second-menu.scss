@@ -1,19 +1,21 @@
 //Second-menu
+.second-menu {
     ul {
-        display: flex;
-        list-style: none;
-        margin-left: 30px;
-        li {
-            margin: 0 15px;
-            padding: 10px;
-            a {
-                color: $color-title-navbar;
-                text-transform: uppercase;
-                font-size: 22px;
-                text-decoration: none;
-                &:hover {
-                    color: $black;
+            display: flex;
+            list-style: none;
+            margin-left: 30px;
+            li {
+                margin: 0 15px;
+                padding: 10px;
+                a {
+                    color: $color-title-navbar;
+                    text-transform: uppercase;
+                    font-size: 22px;
+                    text-decoration: none;
+                    &:hover {
+                        color: $black;
+                    }
                 }
             }
         }
-    }
+}    
